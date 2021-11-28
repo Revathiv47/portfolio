@@ -1,0 +1,36 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.skills-section {
+    display: flex;
+    justify-content : space-between;
+    justify-content: flex-end;
+    justify-content:center;
+    align-items : center;
+    margin:16px 0px;
+    justify-content:space-evenly; 
+}
+
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+        border: 10px;
+    justify-content:center;
+    justify-content:space-between; 
+
+    margin:16px 0px;
+
+}
+@media only screen and (max-width: 720px){
+.skills-list {
+    max-width:100%;
+    justify-content: center;
+}
+.skills-section{
+    flex-direction: column;
+    align-items: center;
+}
+}
